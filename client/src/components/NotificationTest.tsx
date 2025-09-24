@@ -9,7 +9,7 @@ function NotificationTest() {
   const [notificationService, setNotificationService] = useState<NotificationService | null>(null);
   const [testData, setTestData] = useState({
     sms: {
-      phoneNumber: user?.phoneNumber || '',
+      phoneNumber: user?.phoneNumber || '+254741261579',
       message: 'Test SMS from DMS - Your discipline management system is working! 💪'
     },
     push: {
@@ -19,7 +19,7 @@ function NotificationTest() {
     }
   });
   const [profileData, setProfileData] = useState({
-    phoneNumber: user?.phoneNumber || '',
+    phoneNumber: user?.phoneNumber || '+254741261579',
     timezone: user?.timezone || 'UTC',
     firebaseToken: ''
   });

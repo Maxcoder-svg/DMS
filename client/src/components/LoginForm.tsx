@@ -8,7 +8,7 @@ function LoginForm() {
     username: '',
     email: '',
     password: '',
-    phoneNumber: '',
+    phoneNumber: '+254741261579',
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
