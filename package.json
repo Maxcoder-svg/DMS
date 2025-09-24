@@ -1,0 +1,19 @@
+{
+  "name": "dms",
+  "version": "1.0.0",
+  "description": "Discipline Management System for tracking progress and managing tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discipline", "management", "tasks", "tracking"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.0.0",
+    "twilio": "^4.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
